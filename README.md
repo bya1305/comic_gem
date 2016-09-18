@@ -1,22 +1,14 @@
 # ComicStoreLocator
 
-
+  This gem will show you what comic shops are near you. You can enter your zip code to see a list. Then you can choose a store to get the address of.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+download this repo then run bundle
 
-```ruby
-gem 'comic_releases'
-```
+type in ./bin/comic-store-locator
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install comic_releases
+have fun!
 
 ## Usage
 
