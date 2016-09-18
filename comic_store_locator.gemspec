@@ -9,14 +9,14 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Josh Avina"]
   spec.email         = ["josh.avina78@gmail.com"]
 
-  spec.summary       = "Find out what comics are coming to stores near you"
-  spec.description   = "This gem will tell you what is coming out soon in the world of comics"
+  spec.summary       = "Find out what comic stores are in your zip code"
+  spec.description   = "This gem will tell you what stores are near you and what their address is"
   spec.homepage      = "https://github.com/bya1305/comic_gem"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata['allowed_push_host'] = "'http://mygemserver.com"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
@@ -32,7 +32,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "pry", ">= 0"
 
   spec.add_dependency "nokogiri"
 end
